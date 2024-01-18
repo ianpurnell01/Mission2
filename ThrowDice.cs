@@ -21,7 +21,7 @@ namespace IPMission2
                 rolls[i] = rollValue;
             }
 
-            return (rolls);
+            return rolls;
         }
     }
 }

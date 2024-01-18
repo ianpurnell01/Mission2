@@ -1,0 +1,15 @@
+C:\Users\ipurnell\source\repos\IPMission2\bin\Debug\net8.0\IPMission2.exe
+C:\Users\ipurnell\source\repos\IPMission2\bin\Debug\net8.0\IPMission2.deps.json
+C:\Users\ipurnell\source\repos\IPMission2\bin\Debug\net8.0\IPMission2.runtimeconfig.json
+C:\Users\ipurnell\source\repos\IPMission2\bin\Debug\net8.0\IPMission2.dll
+C:\Users\ipurnell\source\repos\IPMission2\bin\Debug\net8.0\IPMission2.pdb
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.AssemblyInfoInputs.cache
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.AssemblyInfo.cs
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.csproj.CoreCompileInputs.cache
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.sourcelink.json
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.dll
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\refint\IPMission2.dll
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.pdb
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\IPMission2.genruntimeconfig.cache
+C:\Users\ipurnell\source\repos\IPMission2\obj\Debug\net8.0\ref\IPMission2.dll

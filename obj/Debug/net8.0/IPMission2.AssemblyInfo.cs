@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPMission2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34a77d97b5fd99161e2332ddeda3d071b0d36bcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPMission2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPMission2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

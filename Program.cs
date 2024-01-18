@@ -12,33 +12,22 @@ internal class Program
         number = int.Parse(System.Console.ReadLine());
 
         //Roll the dice
-        ThrowDice.RollEm(number);
+        ThrowDice td = new ThrowDice();
+
+        int[] rolls = td.RollEm(number);
 
 
-        //Calculate the percentages
-        int twos = rolls.Count(x => x == 2) / num;
-        int threes = rolls.Count(x => x == 3) / num;
-        int fours = rolls.Count(x => x == 4) / num;
-        int fives = rolls.Count(x => x == 5) / num;
-        int sixes = rolls.Count(x => x == 6) / num;
-        int sevens = rolls.Count(x => x == 7) / num;
-        int eights = rolls.Count(x => x == 8) / num;
-        int nines = rolls.Count(x => x == 9) / num;
-        int tens = rolls.Count(x => x == 10) / num;
-        int elevens = rolls.Count(x => x == 11) / num;
-        int twelves = rolls.Count(x => x == 12) / num;
+        //Calculate the percentages and write output
+        System.Console.WriteLine("DICE ROLLING SIMULATION RESULTS\n Each \"*\" represents 1% of the total number of rolls.\nTotal number of rolls = " + number);
+        for (int i = 2; i <= 12; i++)
+        {
+            //this doesn't work unless I cast it as a double then back to an int
+            int percent = (int)(((double)rolls.Count(x => x == i) / number) * 100);
+            string stars = new string('*', percent);
+            System.Console.WriteLine($"{i}: {stars}");
+        }
 
-        System.Console.WriteLine("DICE ROLLING SIMULATION RESULTS\n Each \"*\" represents 1% of the total number of rolls.\nTotal number of rolls = " + num);
-        System.Console.WriteLine("2: " + twos);
-        System.Console.WriteLine("3: " + threes);
-        System.Console.WriteLine("4: " + fours);
-        System.Console.WriteLine("5: " + twos);
-        System.Console.WriteLine("6: " + twos);
-        System.Console.WriteLine("7: " + twos);
-        System.Console.WriteLine("8: " + twos);
-        System.Console.WriteLine("9: " + twos);
-        System.Console.WriteLine("10: " + twos);
-        System.Console.WriteLine("11: " + twos);
-        System.Console.WriteLine("12: " + twos);
+        //Dice Roller, Out
+        System.Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
     }
 }
